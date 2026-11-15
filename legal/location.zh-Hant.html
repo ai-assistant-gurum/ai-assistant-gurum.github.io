@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>基於位置的服務條款 · Gurum</title>
+<style>
+:root{--bg:#f6f7f9;--surface:#fff;--ink:#16181d;--muted:#4b515c;--faint:#7a808a;--line:#e6e8ec;--link:#2f6bdb}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111316;--surface:#1a1d21;--ink:#eceef1;--muted:#b8bdc6;--faint:#8a909a;--line:#2c2f36;--link:#7aa7ff}}
+:root[data-theme="dark"]{--bg:#111316;--surface:#1a1d21;--ink:#eceef1;--muted:#b8bdc6;--faint:#8a909a;--line:#2c2f36;--link:#7aa7ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Pretendard","Noto Sans KR","Noto Sans JP","Noto Sans SC","Noto Sans TC",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+nav.langs{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--faint);margin-bottom:20px}
+nav.langs a{color:var(--link);text-decoration:none}
+nav.langs b{color:var(--ink);font-weight:600}
+h1{font-size:24px;line-height:1.35;margin:0 0 16px}
+h2{font-size:17px;line-height:1.45;margin:28px 0 8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+p,li{color:var(--muted)}
+p{margin:8px 0}
+ul{margin:8px 0;padding-left:22px}
+li{margin:4px 0}
+a{color:var(--link)}
+.docs a{display:block;padding:14px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+<nav class="langs"><a href="location.html" hreflang="ko">한국어</a> · <a href="location.en.html" hreflang="en">English</a> · <a href="location.ja.html" hreflang="ja">日本語</a> · <a href="location.zh-Hans.html" hreflang="zh-Hans">简体中文</a> · <b>繁體中文</b></nav>
+<p><a href="index.zh-Hant.html">條款與政策</a></p>
+<h1>基於位置的服務條款</h1>
+<p>施行日：2026年11月15日</p>
+<p>本中文版本為方便閱讀而提供的翻譯。如與韓文原文不一致，以韓文原文為準。</p>
+<h2>第1條（目的）</h2>
+<p>本條款旨在規定在 Gurum 開發者（個人，以下稱「營運者」）提供的 Gurum 應用程式（以下稱「Gurum」）中使用位置資訊的服務（以下稱「基於位置的服務」）方面，營運者與使用者之間的權利、義務和責任事項。</p>
+<h2>第2條（條款外的準則）</h2>
+<p>本條款未規定的事項，依照《位置資訊保護與利用等相關法律》（위치정보의 보호 및 이용 등에 관한 법률）、《個人資料保護法》（개인정보 보호법）等相關法律以及 Gurum 的《服務條款》《個人資料處理方針》。</p>
+<h2>第3條（服務內容與費用）</h2>
+<p>使用者允許位置權限時，Gurum 會將使用者裝置的位置用於以下功能。</p>
+<ul>
+<li>行程介面的「目前位置」：顯示目前位置的城市、時間、天氣</li>
+<li>天氣查詢與簡報：目前位置的天氣預報</li>
+<li>助理請求：使用者請求需要位置的事項時，確認目前位置（地址、座標）並處理</li>
+</ul>
+<p>基於位置的服務免費。但資料通訊費用依照使用者所加入電信營運商的資費政策。</p>
+<h2>第4條（個人位置資訊的處理方式）</h2>
+<ul>
+<li>Gurum 僅在使用者的裝置內使用使用者的個人位置資訊，不會傳送至營運者的伺服器或位置資訊系統。營運者不收集、儲存、提供使用者的個人位置資訊。</li>
+<li>為獲取天氣，Gurum 僅將精確到小數點後兩位（約 1 公里）的位置座標直接傳送至公開天氣服務（Open-Meteo）。該請求不包含識別使用者的資訊。</li>
+<li>使用者向助理請求需要位置的事項時，Gurum 會將目前位置（地址、座標）作為對話內容的一部分傳送至使用者所連接的 AI 服務。此傳送是根據使用者的請求直接傳送至使用者所連接的服務，所傳送的內容可在「設定 › AI 設定 › 傳送給 AI 的內容」中查看。</li>
+<li>Gurum 不會在後臺持續追蹤位置。僅在應用程式顯示於螢幕上或使用者提出請求時才讀取位置。</li>
+</ul>
+<h2>第5條（個人位置資訊的儲存期限）</h2>
+<ul>
+<li>用於顯示「目前位置」的最近一次位置儲存在使用者的裝置內，每次讀取新位置時都會更新（約每30分鐘）。</li>
+<li>天氣結果會在裝置內短暫儲存。</li>
+<li>助理對話中包含的位置會一直保留在裝置內，直到使用者刪除該對話。</li>
+<li>上述資訊在使用者刪除、執行「設定 › 一般 › 重設」或解除安裝應用程式後會全部刪除。</li>
+</ul>
+<h2>第6條（位置資訊使用、提供事實確認資料）</h2>
+<p>營運者不收集或提供使用者的個人位置資訊，因此不持有位置資訊使用、提供事實確認資料。傳送至使用者所連接 AI 服務的位置，可在使用者裝置內的「傳送給 AI 的內容」記錄中查看30天。</p>
+<h2>第7條（個人位置資訊主體的權利）</h2>
+<ul>
+<li>使用者可隨時撤回對位置使用的全部或部分同意。在智慧型手機設定中收回 Gurum 的位置權限，或關閉行程介面的「同時顯示目前位置」即可。</li>
+<li>使用者可隨時要求暫時中止位置使用，可透過將位置權限改為「僅本次允許」或「拒絕」來行使。</li>
+<li>使用者可直接查看並刪除裝置內留存的位置相關記錄。使用者也可要求營運者提供查閱、告知、更正，但營運者並不持有使用者的個人位置資訊。</li>
+</ul>
+<h2>第8條（法定代理人的權利）</h2>
+<p>由於 Gurum 僅限年滿14周歲的人使用，營運者不提供使用未滿14周歲兒童的個人位置資訊的服務。得知未滿14周歲的兒童正在使用 Gurum 的法定代理人（父母等），可在兒童的裝置上收回位置權限或解除安裝應用程式，並可行使本條款所規定的使用者權利。</p>
+<h2>第9條（8歲以下兒童等的監護義務人的權利）</h2>
+<p>8歲以下的兒童、被監護人、重度殘疾人的監護義務人，為保護其生命或身體而同意使用個人位置資訊的，視為本人已同意。監護義務人可行使本條款所規定的個人位置資訊主體的全部權利。</p>
+<h2>第10條（向第三方提供個人位置資訊）</h2>
+<p>營運者不向第三方提供使用者的個人位置資訊。向第4條所述天氣服務和所連接 AI 服務的傳送，是由使用者的裝置根據使用者的請求或設定直接進行的，其內容使用者可在裝置內查看。</p>
+<h2>第11條（位置資訊管理負責人）</h2>
+<ul>
+<li>位置資訊管理負責人：Gurum 開發者（個人）</li>
+<li>電子信箱：privacy@gurum.ai</li>
+</ul>
+<h2>第12條（損害賠償）</h2>
+<p>營運者違反《位置資訊保護與利用等相關法律》（위치정보의 보호 및 이용 등에 관한 법률）的規定而給使用者造成損害時，使用者可向營運者請求損害賠償，營運者如不能證明自己沒有故意或過失，則應承擔責任。</p>
+<h2>第13條（免責）</h2>
+<ul>
+<li>是否允許位置權限、是否將需要位置的事項交給助理、連接哪種 AI 服務，均由使用者決定。傳送至所連接 AI 服務的位置在該服務中如何儲存和使用，依照該服務的條款和設定。</li>
+<li>對於因天災、使用者裝置的位置測定錯誤或故障、通訊故障、使用者的故意或過失、依照使用者的指示和設定而進行的傳送、使用者所連接服務的情況等營運者沒有故意或重大過失的原因造成的損害，營運者不承擔責任。</li>
+<li>但營運者因故意或重大過失所應承擔的責任，以及相關法律上不得限制的其他責任，不受本條限制。</li>
+</ul>
+<h2>第14條（爭議調解）</h2>
+<ul>
+<li>就位置資訊相關爭議，當事人之間未能達成協商或無法協商時，使用者可依照《位置資訊保護與利用等相關法律》（위치정보의 보호 및 이용 등에 관한 법률）第28條向放送媒體通訊委員會（방송미디어통신위원회）申請裁定。</li>
+<li>使用者可依照《個人資料保護法》（개인정보 보호법）第43條向個人資料糾紛調解委員會（개인정보분쟁조정위원회，無區號 1833-6972，www.kopico.go.kr）申請調解。</li>
+</ul>
+<h2>第15條（營運者資訊）</h2>
+<ul>
+<li>營運者：Gurum 開發者（個人）</li>
+<li>聯絡方式：privacy@gurum.ai</li>
+</ul>
+<h2>附則</h2>
+<p>本條款自2026年11月15日起施行。</p>
+</main>
+</body>
+</html>
