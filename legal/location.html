@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>위치기반 서비스 이용약관 · Montie</title>
+<style>
+:root{--bg:#f6f7f9;--surface:#fff;--ink:#16181d;--muted:#4b515c;--faint:#7a808a;--line:#e6e8ec;--link:#2f6bdb}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111316;--surface:#1a1d21;--ink:#eceef1;--muted:#b8bdc6;--faint:#8a909a;--line:#2c2f36;--link:#7aa7ff}}
+:root[data-theme="dark"]{--bg:#111316;--surface:#1a1d21;--ink:#eceef1;--muted:#b8bdc6;--faint:#8a909a;--line:#2c2f36;--link:#7aa7ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Pretendard","Noto Sans KR","Noto Sans JP","Noto Sans SC","Noto Sans TC",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+nav.langs{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--faint);margin-bottom:20px}
+nav.langs a{color:var(--link);text-decoration:none}
+nav.langs b{color:var(--ink);font-weight:600}
+h1{font-size:24px;line-height:1.35;margin:0 0 16px}
+h2{font-size:17px;line-height:1.45;margin:28px 0 8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+p,li{color:var(--muted)}
+p{margin:8px 0}
+ul{margin:8px 0;padding-left:22px}
+li{margin:4px 0}
+a{color:var(--link)}
+.docs a{display:block;padding:14px 0;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+<nav class="langs"><b>한국어</b> · <a href="location.en.html" hreflang="en">English</a> · <a href="location.ja.html" hreflang="ja">日本語</a> · <a href="location.zh-Hans.html" hreflang="zh-Hans">简体中文</a> · <a href="location.zh-Hant.html" hreflang="zh-Hant">繁體中文</a></nav>
+<p><a href="index.html">약관 및 정책</a></p>
+<h1>위치기반 서비스 이용약관</h1>
+<p>시행일: 2026년 11월 15일</p>
+<h2>제1조 (목적)</h2>
+<p>이 약관은 Montie 개발자(개인, 이하 &quot;운영자&quot;)가 제공하는 몬티(Montie) 앱(이하 &quot;몬티&quot;)에서 위치정보를 이용하는 서비스(이하 &quot;위치기반 서비스&quot;)에 관하여 운영자와 이용자의 권리, 의무, 책임 사항을 정하는 것을 목적으로 합니다.</p>
+<h2>제2조 (약관 외 준칙)</h2>
+<p>이 약관에서 정하지 않은 사항은 「위치정보의 보호 및 이용 등에 관한 법률」, 「개인정보 보호법」 등 관련 법령과 몬티의 「서비스 이용약관」, 「개인정보 처리방침」을 따릅니다.</p>
+<h2>제3조 (서비스의 내용과 요금)</h2>
+<p>몬티는 이용자가 위치 권한을 허용한 경우 다음 기능에 이용자 기기의 위치를 씁니다.</p>
+<ul>
+<li>일정 화면의 「지금 있는 곳」: 지금 있는 곳의 도시, 시각, 날씨 표시</li>
+<li>날씨 묻기와 브리핑: 지금 있는 곳의 날씨 예보</li>
+<li>비서 요청: 이용자가 위치가 필요한 일을 요청하면 지금 위치(주소, 좌표)를 확인하여 처리</li>
+</ul>
+<p>위치기반 서비스는 무료입니다. 다만 데이터 통신 요금은 이용자가 가입한 통신사의 요금 정책을 따릅니다.</p>
+<h2>제4조 (개인위치정보의 처리 방식)</h2>
+<ul>
+<li>몬티는 이용자의 개인위치정보를 이용자의 기기 안에서만 이용하며 운영자의 서버나 위치정보시스템으로 전송하지 않습니다. 운영자는 이용자의 개인위치정보를 수집, 보관, 제공하지 않습니다.</li>
+<li>날씨를 받기 위하여 몬티는 소수 둘째 자리(약 1km 단위)로 줄인 위치 좌표만 공개 날씨 서비스(Open-Meteo)에 직접 보냅니다. 이 요청에는 이용자를 식별하는 정보가 들어가지 않습니다.</li>
+<li>이용자가 위치가 필요한 일을 비서에게 요청하면 몬티는 지금 위치(주소, 좌표)를 이용자가 연결한 AI 서비스에 대화 내용의 일부로 보냅니다. 이 전송은 이용자의 요청에 따라 이용자가 연결한 서비스로 직접 이루어지며, 보낸 내용은 「설정 › AI 연결 › AI에 보낸 것」에서 볼 수 있습니다.</li>
+<li>몬티는 배경에서 위치를 계속 추적하지 않습니다. 앱이 화면에 있을 때 또는 이용자가 요청했을 때만 위치를 읽습니다.</li>
+</ul>
+<h2>제5조 (개인위치정보의 보유 기간)</h2>
+<ul>
+<li>「지금 있는 곳」 표시를 위한 마지막 위치는 이용자의 기기 안에 저장되며 새 위치를 읽을 때마다 바뀝니다(약 30분 간격).</li>
+<li>날씨 결과는 기기 안에 잠시 보관됩니다.</li>
+<li>비서 대화에 담긴 위치는 이용자가 그 대화를 지울 때까지 기기 안에 남습니다.</li>
+<li>위의 정보는 이용자가 지우거나, 「설정 › 일반 › 초기화」를 하거나, 앱을 삭제하면 모두 지워집니다.</li>
+</ul>
+<h2>제6조 (위치정보 이용·제공사실 확인자료)</h2>
+<p>운영자는 이용자의 개인위치정보를 수집하거나 제공하지 않으므로 위치정보 이용·제공사실 확인자료를 보유하지 않습니다. 이용자가 연결한 AI 서비스로 보낸 위치는 이용자의 기기 안 「AI에 보낸 것」 기록에서 30일 동안 확인할 수 있습니다.</p>
+<h2>제7조 (개인위치정보주체의 권리)</h2>
+<ul>
+<li>이용자는 언제든지 위치 이용에 대한 동의의 전부 또는 일부를 철회할 수 있습니다. 스마트폰 설정에서 몬티의 위치 권한을 거두거나, 일정 화면의 「지금 있는 곳도 보이기」를 끄면 됩니다.</li>
+<li>이용자는 언제든지 위치 이용의 일시적인 중지를 요구할 수 있으며, 위치 권한을 「이번만 허용」이나 「거부」로 바꾸어 행사할 수 있습니다.</li>
+<li>이용자는 기기 안에 남은 위치 관련 기록을 직접 보고 지울 수 있습니다. 운영자에게 열람, 고지, 정정을 요구할 수도 있으나 운영자는 이용자의 개인위치정보를 갖고 있지 않습니다.</li>
+</ul>
+<h2>제8조 (법정대리인의 권리)</h2>
+<p>몬티는 만 14세 이상인 사람만 이용할 수 있으므로 운영자는 만 14세 미만 아동의 개인위치정보를 이용하는 서비스를 제공하지 않습니다. 만 14세 미만 아동이 몬티를 쓰고 있는 것을 안 법정대리인(부모 등)은 아동의 기기에서 위치 권한을 거두거나 앱을 삭제할 수 있으며, 이 약관에 따른 이용자의 권리를 행사할 수 있습니다.</p>
+<h2>제9조 (8세 이하 아동 등의 보호의무자의 권리)</h2>
+<p>8세 이하의 아동, 피성년후견인, 중증 장애인의 보호의무자가 그 사람의 생명이나 신체 보호를 위하여 개인위치정보의 이용에 동의하는 경우에는 본인의 동의가 있는 것으로 봅니다. 보호의무자는 이 약관에 따른 개인위치정보주체의 권리를 모두 행사할 수 있습니다.</p>
+<h2>제10조 (개인위치정보의 제3자 제공)</h2>
+<p>운영자는 이용자의 개인위치정보를 제3자에게 제공하지 않습니다. 제4조의 날씨 서비스와 연결한 AI 서비스로의 전송은 이용자의 기기가 이용자의 요청이나 설정에 따라 직접 하는 것이며, 그 내용은 이용자가 기기 안에서 확인할 수 있습니다.</p>
+<h2>제11조 (위치정보관리책임자)</h2>
+<ul>
+<li>위치정보관리책임자: Montie 개발자(개인)</li>
+<li>이메일: privacy@gurum.ai</li>
+</ul>
+<h2>제12조 (손해배상)</h2>
+<p>운영자가 「위치정보의 보호 및 이용 등에 관한 법률」의 규정을 위반하여 이용자에게 손해가 생긴 경우 이용자는 운영자에게 손해배상을 청구할 수 있으며, 운영자는 고의 또는 과실이 없음을 증명하지 못하면 책임을 집니다.</p>
+<h2>제13조 (면책)</h2>
+<ul>
+<li>위치 권한을 허용할지, 위치가 필요한 일을 비서에게 맡길지, 어떤 AI 서비스를 연결할지는 이용자가 정합니다. 연결한 AI 서비스로 보낸 위치가 그 서비스에서 어떻게 저장·이용되는지는 그 서비스의 약관과 설정을 따릅니다.</li>
+<li>운영자는 천재지변, 이용자 기기의 위치 측정 오류나 고장, 통신 장애, 이용자의 고의 또는 과실, 이용자의 지시와 설정에 따른 전송, 이용자가 연결한 서비스의 사정 등 운영자의 고의 또는 중대한 과실이 없는 사유로 생긴 손해에 대하여 책임을 지지 않습니다.</li>
+<li>다만 운영자의 고의 또는 중대한 과실로 인한 책임, 그 밖에 관련 법령상 제한할 수 없는 책임은 이 조항으로 제한되지 않습니다.</li>
+</ul>
+<h2>제14조 (분쟁의 조정)</h2>
+<ul>
+<li>위치정보와 관련된 분쟁에 대하여 당사자 사이에 협의가 이루어지지 않거나 협의할 수 없는 경우 이용자는 「위치정보의 보호 및 이용 등에 관한 법률」 제28조에 따라 방송미디어통신위원회에 재정을 신청할 수 있습니다.</li>
+<li>이용자는 「개인정보 보호법」 제43조에 따라 개인정보분쟁조정위원회(국번 없이 1833-6972, www.kopico.go.kr)에 조정을 신청할 수 있습니다.</li>
+</ul>
+<h2>제15조 (운영자 정보)</h2>
+<ul>
+<li>운영자: Montie 개발자(개인)</li>
+<li>연락처: privacy@gurum.ai</li>
+</ul>
+<h2>부칙</h2>
+<p>이 약관은 2026년 11월 15일부터 시행합니다.</p>
+</main>
+</body>
+</html>
